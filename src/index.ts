@@ -444,6 +444,4 @@ app.all('*', async (c) => {
   });
 });
 
-export default {
-  fetch: app.fetch,
-};
+export default app;
